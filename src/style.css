@@ -150,7 +150,9 @@ p a:hover {
   opacity: 0.7;
 }
 /*About section*/
-
+.content-container {
+  padding-top: 30px;
+}
 .content h1 {
   font-size: 50px;
   line-height: 1;
@@ -165,9 +167,12 @@ p a:hover {
 .content {
   margin: 30px;
 }
-
+/*Work*/
+.content img {
+  padding: 0px 20px;
+}
 footer .social-links a {
-  margin: 0 20px;
+  margin: 0 10px;
   color: var(--primary-color);
   background-color: #fff2f3;
   padding: 10px 18px;
