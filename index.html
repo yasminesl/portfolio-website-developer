@@ -15,119 +15,90 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Karla&family=Nanum+Pen+Script&family=Playfair:opsz,wght@5..1200,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="/src/style.css" />
+    <script
+      src="https://kit.fontawesome.com/150276576f.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Yasmine Slavenburg</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="/index.html"
-                title="Homepage"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="/about.html"
-                title="About Yasmine Slavenburg"
-                >About
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="/about.html#contact"
-                title="Contact Yasmine Slavenburg"
-                >Contact
-              </a>
-            </li>
-          </ul>
-        </div>
+    <div class="hero">
+      <h1 class="name-hero text-center">Hi! I'm Yasmine Slavenburg</h1>
+      <h2 class="text-center">
+        front-end developer. born in the netherlands
+        <img
+          src="/images/netherlands-house.png"
+          alt="netherlands house"
+          width="30px"
+          height="60px"
+        />. based in charlotte, north carolina. love photography
+        <img src="/images/camera.png" alt="camera" width="60px" height="40px" />
+        and trying new recipes.
+      </h2>
+
+      <div class="hero-link">
+        <a href="#" class="primary-link" title="About Yasmine Slavenburg"
+          >Learn more
+        </a>
       </div>
-    </nav>
-    <h2 class="text-center">👋 Hi I am</h2>
-    <h1 class="text-center">Yasmine Slavenburg</h1>
-    <h3 class="text-center">🇳🇱 Front-end developer, based in Charlotte</h3>
-    <div class="navigation-links mb-5">
-      <a
-        href="/about.html#contact"
-        class="primary-link"
-        title="Contact Yasmine Slavenburg"
-        >Contact me</a
-      >
-      <a
-        href="/about.html"
-        class="secondary-link"
-        title="About Yasmine Slavenburg"
-        >About me</a
-      >
     </div>
-    <div class="container">
+    <h3 class="text-center mb-5">Featured projects I have worked on</h3>
+    <div class="projects-container container">
       <div class="row">
         <div class="col-sm-6">
           <img
-            src="/images/yoga.png"
+            src="/images/portfolio photography.png"
             class="img-fluid rounded d-none d-sm-block"
-            title="yoga"
-            alt="yoga app"
+            title="photography-portfolio"
+            alt="photography portfolio"
           />
         </div>
         <div class="col-sm-6">
-          <h2 class="mb-3">Yoga app</h2>
-          <p class="app-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="mt-5">
-            <a href="#" class="primary-link" title="Yoga app"
-              >Launch Yoga App</a
+          <div class="project-description">
+            <h3 class="mb-3">Photography portfolio</h3>
+            <p class="app-paragraph">
+              Multiple-page portfolio built with HTML & CSS hosted on Netlify.
+            </p>
+
+            <a
+              href="https://www.yasmineslavenburg-photography.netlify.app/"
+              class="btn btn-branding-outline"
+              title="Yoga app"
+              >View Project</a
             >
           </div>
         </div>
       </div>
       <div class="row mt-5">
         <div class="col-sm-6">
-          <h2 class="mb-3">Weather app</h2>
-          <p class="app-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="mt-5">
-            <a href="#" class="primary-link" title="Weather app"
-              >Launch Weather App</a
+          <div class="project-description">
+            <h3 class="mb-3">Weather app</h3>
+            <p class="app-paragraph">
+              A live weather app showing real time weather updates. Created by
+              using HTML, CSS, & JavaScript as well as an integrated API.
+            </p>
+            <a
+              href="https://www.fanciful-sawine-c4f7b7.netlify.app/"
+              class="btn btn-branding-outline"
+              title="Weather app"
+              >View project</a
             >
           </div>
         </div>
         <div class="col-sm-6">
           <img
-            src="/images/weather.png"
+            src="/images/vanilla weather app.png"
             class="img-fluid rounded d-none d-sm-block"
             title="weather"
           />
@@ -136,26 +107,54 @@
       <div class="row mt-5">
         <div class="col-sm-6">
           <img
-            src="/images/yoghurt.png"
+            src="/images/Baking Landing page.png"
             class="img-fluid rounded d-none d-sm-block"
             title="yoghurt"
           />
         </div>
         <div class="col-sm-6">
-          <h2 class="mt-3 mb-3">Yoghurt app</h2>
-          <p class="app-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="mt-5 mb-5">
-            <a href="#" class="primary-link" title="Yoghurt app"
-              >Launch Yoghurt App</a
+          <div class="project-description">
+            <h3 class="mt-3 mb-3">Baking app</h3>
+            <p class="app-paragraph">
+              A baking landing page created using HTML, CSS & JavaScript.
+            </p>
+            <a href="#" class="btn btn-branding-outline" title="Yoghurt app"
+              >View Project</a
             >
           </div>
         </div>
       </div>
+      <footer>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.github.com/yasminesl"
+            target="_blank"
+            title="GitHub"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/_yasmine.sl/"
+            target="_blank"
+            title="Instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/yasmine-slavenburg/"
+            target="_blank"
+            title="LinkedIn"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <p class="text-center mt-4">
+          This project was coded with ❤ by Yasmine Slavenburg and it is
+          <a
+            href="https://www.github.com/yasminesl/portfolio-photography-project"
+            target="_blank"
+            title="GitHub"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
