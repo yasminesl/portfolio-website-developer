@@ -129,6 +129,16 @@ nav li.active a {
 .project-description {
   padding: 70px 30px;
 }
+.skills i {
+  font-size: 40px;
+}
+.skills li {
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+}
 /*Contact*/
 .links {
   color: var(--primary-color);
@@ -191,6 +201,9 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 900px) {
+  .hero {
+    padding: 0;
+  }
   .hero h1 {
     font-size: 60px;
   }
