@@ -98,7 +98,6 @@ p {
 .content-container h3 {
   text-transform: capitalize;
   font-family: "Playfair", serif;
-  font-weight: bold;
 }
 .small-text {
   font-family: "Nanum Pen Script", cursive;
@@ -113,20 +112,23 @@ p a:hover {
   opacity: 0.7;
 }
 /*About section*/
-.content-container {
-  padding: 160px 20px;
-}
-.content-container h1 {
+
+.content h1 {
   font-size: 50px;
   line-height: 1;
 }
-.content-container h2 {
+.content h2 {
   font-size: 40px;
+}
+.content h3 {
+  line-height: 1.5;
+  margin-top: 20px;
 }
 .content {
   margin: 30px;
 }
-.about-container footer .social-links a {
+
+footer .social-links a {
   margin: 0 20px;
   color: var(--primary-color);
   background-color: #fff2f3;
@@ -156,7 +158,7 @@ footer .social-links a:hover {
   .project-description {
     text-align: center;
   }
-  .about-container {
+  .content-container {
     padding: 0;
     text-align: center;
   }
