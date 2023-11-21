@@ -31,6 +31,44 @@ p {
   line-height: 1.5;
   font-family: "Karla", sans-serif;
 }
+/*Navbar*/
+.logo {
+  max-width: 150px;
+}
+.logo-small {
+  max-width: 150px;
+  max-height: 72px;
+  height: auto;
+  width: auto;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 20px 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  font-family: "Karla", sans-serif;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+li a:hover,
+nav li.active a {
+  opacity: 0.7;
+  color: var(--primary-color);
+}
+
 /*Homepage*/
 .hero,
 .content-container {
