@@ -70,7 +70,9 @@ nav li.active a {
 }
 
 /*Homepage*/
-.hero,
+.hero {
+  padding: 160px 80px;
+}
 .content-container {
   padding: 160px 80px;
 }
